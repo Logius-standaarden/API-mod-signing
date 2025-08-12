@@ -16,3 +16,6 @@ The Nederlandse API Strategie consists of [a set of distinct documents](https://
 Before reading this document it is advised to gain knowledge of the informative documents, in particular the [Architecture](https://geonovum.github.io/KP-APIs/API-strategie-algemeen/Architectuur/).
 
 <!-- below: specific part for this module only -->
+This ADR Module contains the requirements for ADR-HTTP Message and payload signing with [[[JAdES]]].
+
+This module is based on the _ISA² IPS REST API Profile v1.0 section 5.2.2 Message And Payload Level Security_.

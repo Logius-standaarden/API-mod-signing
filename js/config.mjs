@@ -3,23 +3,29 @@ import { loadRespecWithConfiguration } from "https://logius-standaarden.github.i
 
 loadRespecWithConfiguration({
   pubDomain: "api",
-  shortName: "mod-template",
-  specType: "HR",
-  specStatus: "WV",
-  publishDate: "2024-03-07",
-  publishVersion: "1.0.2",
-  previousPublishDate: "2023-05-23",
-  previousPublishVersion: "1.0.1",
+  shortName: "mod-signing",
+  specType: "ST",
+  specStatus: "DEF",
+  publishDate: "2024-09-06",
+  publishVersion: "1.0.0",
+  //previousPublishVersion: "",
   editors: [{
     name: "Logius Standaarden",
     company: "Logius",
     companyURL: "https://www.logius.nl",
   },],
   authors: [{
-    name: "Logius Standaarden",
+    name: "Peter Haasnoot",
     company: "Logius",
     companyURL: "https://www.logius.nl",
   },],
-  github: "https://github.com/Logius-standaarden/API-mod-template/",
+  github: "https://github.com/Logius-standaarden/API-mod-signing/",
   postProcess: [processRuleBlocks],
+
+  localBiblio: {
+    "JAdES": {
+      href: "https://www.etsi.org/deliver/etsi_ts/119100_119199/11918201/01.01.01_60/ts_11918201v010101p.pdf",
+      title: "JAdES digital signatures",
+    },
+  }
 });

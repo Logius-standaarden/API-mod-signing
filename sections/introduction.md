@@ -1,13 +1,10 @@
 # Introduction
 
-This document forms a template for modules belonging to the [[[ADR]]].
+This module specifies the use of JAdES signatures for HTTP message and payload siging. The module is directly based on the _ISA² IPS REST API Profile v1.0_ (which was a result of the [REST API Pilot project for eDelivery](https://joinup.ec.europa.eu/collection/api4dt/document/isa2-ips-rest-api-profile))
 
-The rule list below gets populated automatically based on attributes given to the rules (see `example.md`).
+## Use Cases
 
-## Functional rules
+This module is applicable when there is a need for assurance of end to end message integrity and authenticity between client application and server application.
+In the context of HTTP messages signing header elements (for example HTTP operation (GET/POST/UPDATE/DELETE) and resource path / parameters, or timestamps) together with payload provides an extra level of protection against manipulation of the message.
 
-<ul id="functionalList"></ul>
-
-## Technical rules
-
-<ul id="technicalList"></ul>
+In a complex IT landscape the path between client and server can go over several intermediary components/systems in which case end to end integrity and authenticity can be especially relevant. (In this case TLS is terminated in each step on the path and does not protect the http-message in transport fully end to end).

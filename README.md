@@ -1,1 +1,1 @@
-# API Design Rules Module: Template
+# API Design Rules Module: Signing
