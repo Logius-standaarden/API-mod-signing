@@ -10,13 +10,13 @@ When Message-Level Security is considered, the HttpHeaders Mechanism of the JAdE
 * The value of the mId parameter MUST be set to `http://uri.etsi.org/19182/HttpHeaders`. 
 
 * The pars array of the SigD MUST contain at least the following elements:
-    * the element "(request-target)", for containing the HTTP Request URI
-    * the element "host", for containing the host the message was submitted to, if present
-    * the element "origin", for containing the scheme, hostname, and port from which the request was initiated, if present
-    * the element "content-encoding", if present
-    * the element "content-type", if present
-    * the element "content-length", if present
-    * the element "digest", for taking into account the Digest header that contains the hash value of the HTTP payload. 
+    * the element `(request-target)`, for containing the HTTP Request URI
+    * the element `host`, for containing the host the message was submitted to, if present
+    * the element `origin`, for containing the scheme, hostname, and port from which the request was initiated, if present
+    * the element `content-encoding`, if present
+    * the element `content-type`, if present
+    * the element `content-length`, if present
+    * the element `digest`, for taking into account the Digest header that contains the hash value of the HTTP payload. 
 * The alg parameter MUST be set to the correct value depending on the algorithm used (see above). 
 
 
