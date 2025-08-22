@@ -1,6 +1,6 @@
 # JWS detached signatures
 
-This module enforces the use of JWS detached signatures following the HTTP Headers Mechanism of the ETSI ESI JAdES specification [[JAdES]]. 
+This module enforces the use of JWS detached signatures following the HTTP Headers Mechanism of the ETSI ESI JAdES specification [[JAdES]].
 
 This structure is enforced for the following reasons:
 * JWS, being a simple JSON Structure, can be supported by clients in a light context, while specifications like the ETSI ESI ASIC containers are more difficult to do.
