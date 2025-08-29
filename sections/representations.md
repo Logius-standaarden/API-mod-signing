@@ -1,6 +1,6 @@
 # Signature Representations
 
-```
+```yaml
 openapi: 3.1.0
 info:
     title: JAdES Signatures
