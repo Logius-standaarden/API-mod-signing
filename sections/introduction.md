@@ -1,6 +1,6 @@
 # Introduction
 
-This module specifies the use of JAdES signatures for HTTP message and payload siging. The module is directly based on the _ISA² IPS REST API Profile v1.0_ (which was a result of the [REST API Pilot project for eDelivery](https://joinup.ec.europa.eu/collection/api4dt/document/isa2-ips-rest-api-profile))
+This module specifies the use of JAdES signatures for HTTP message and payload siging. The module is directly based on the _ISA² IPS REST API Profile v1.0_ (which was a result of the [REST API Pilot project for eDelivery](https://interoperable-europe.ec.europa.eu/collection/api4dt/document/isa2-ips-rest-api-profile))
 
 ## Use Cases
 
