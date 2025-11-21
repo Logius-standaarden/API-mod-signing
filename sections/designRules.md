@@ -31,7 +31,7 @@ Payload signing ensures the integrity and authenticity of the payload part of th
 * The `pars` array of the SigD MUST contain only the element `digest`, denoting that for the calculation of the signature only the digest of the HTTP payload must be taken into account, according to [[RFC3230]].
 * The `alg` parameter MUST be set to the correct value depending on the algorithm used (see [[[#cryptographic-algorithms]]]).
 
-The JWS structure shall be carried in HTTP header field named `nlgov-adr-payload-sig`. The header field can be used in both requests and responses. The header field MUST not appear more than once in a message; if a message contains multiple nlgov-adr-payload-sig header fields, the receiver MUST consider the signature invalid.
+The JWS structure shall be carried in HTTP header field named `Payload-Signature`. The header field can be used in both requests and responses. The header field MUST not appear more than once in a message; if a message contains multiple `Payload-Signature` header fields, the receiver MUST consider the signature invalid.
    </dd>
 </dl>
 </div>
@@ -60,7 +60,7 @@ When Message-Level Security is considered, the HttpHeaders Mechanism of the JAdE
   * the element `digest`, for taking into account the Digest header that contains the hash value of the HTTP payload.
 * The alg parameter MUST be set to the correct value depending on the algorithm used (see above).
 
-Implementations that make use of the HTTP Header fields for data representation SHOULD also include these header fields in the pars array. The JWS structure MUST be carried in HTTP header field named `nlgov-adr-message-sig`. The header field can be used in both requests and responses. The header field MUST not appear more than once in a message; if a message contains multiple nlgov-adr-message-sig header fields, the receiver MUST consider the signature invalid.
+Implementations that make use of the HTTP Header fields for data representation SHOULD also include these header fields in the pars array. The JWS structure MUST be carried in HTTP header field named `Message-Signature`. The header field can be used in both requests and responses. The header field MUST not appear more than once in a message; if a message contains multiple `Message-Signature` header fields, the receiver MUST consider the signature invalid.
    </dd>
 </dl>
 </div>
