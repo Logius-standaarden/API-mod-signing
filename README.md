@@ -2,8 +2,6 @@
 
 ### Links
 
-| Formele standaard                                            | Gepubliceerde versie                                         | Werk versie                                                  | Repository                                                   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 - NLGov API Design Rules (ADR)
   - [Formele standaard](https://forumstandaardisatie.nl/open-standaarden/rest-api-design-rules)
   - [Gepubliceerde versie](https://gitdocumentatie.logius.nl/publicatie/api/adr/)
