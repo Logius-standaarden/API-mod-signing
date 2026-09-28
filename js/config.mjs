@@ -5,10 +5,9 @@ loadRespecWithConfiguration({
   pubDomain: "api",
   shortName: "mod-signing",
   specType: "ST",
-  specStatus: "WV",
-  publishDate: "2024-09-06",
+  specStatus: "DEF",
+  publishDate: "2026-06-18",
   publishVersion: "1.0.0",
-  latestVersion: "https://logius-standaarden.github.io/API-mod-signing/",
   prevVersion: [],
   editors: [{
     name: "Logius Standaarden",
