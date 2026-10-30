@@ -64,6 +64,8 @@ schemas:
     description: Defines the string pattern as a regular expression that
       MUST be followed to represent detached JWS compact tokens
     type: string
-    format: jws-compact-detached
-    pattern: ^[A-Za-z0-9_-]+(?:(\\.\\.)[A-Za-z0-9_-]+){1}
+    externalDocs:
+      url: https://www.rfc-editor.org/info/rfc7797/#section-4.2
+    example: "eyJhbGciOiJIUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..A5dxf2s96_n5FLueVuW1Z_vh161FwXZC4YLPff6dmDY"
+    pattern: ^[A-Za-z0-9_-~]+\\.\\.[A-Za-z0-9_-~]+$
 ```
